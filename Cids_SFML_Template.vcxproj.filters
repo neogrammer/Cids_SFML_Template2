@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{52f629ce-a1f6-45a9-a01c-c043827ed3b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{b523f861-7ed0-468b-8c54-2384eeebf902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{e17c415f-1ca7-431d-b760-06de5988e369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures">
+      <UniqueIdentifier>{5f8b76af-18df-4d5f-adfa-1aedc102c8a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Data">
+      <UniqueIdentifier>{c2e63d27-a091-42ef-9fbe-4ec755c37cee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders">
+      <UniqueIdentifier>{4b838fd3-73b5-47d9-9cf6-97ee188dc15c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Sound">
+      <UniqueIdentifier>{ac3b4fc0-1b19-424d-8478-aa58720f57e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Data\Animations">
+      <UniqueIdentifier>{c1253833-9f18-4b8d-8afd-9983b1997e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Data\Maps">
+      <UniqueIdentifier>{c593e90c-801c-4f02-bc58-310755ad2e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Data\Tilesets">
+      <UniqueIdentifier>{1ad533d3-ab8e-4053-ae0c-0581ad8299f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Data\Scripts">
+      <UniqueIdentifier>{d3259c9d-7bda-4a9f-aaa5-64aabc6d8bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Data\Stages">
+      <UniqueIdentifier>{eb36490d-00a4-4bb0-87c8-478487667ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders\PixelShaders">
+      <UniqueIdentifier>{a4f07044-e017-4e01-92fc-72ebab0d643c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders\VertexShaders">
+      <UniqueIdentifier>{16b4e4e3-2208-40c3-a58f-fcab81bb1158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Sound\SFX">
+      <UniqueIdentifier>{b8a970d3-6ea2-49d8-8937-53834447567e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Sound\Music">
+      <UniqueIdentifier>{dbca324b-7194-422a-8436-48df0bb1337d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\Entities">
+      <UniqueIdentifier>{c858d90e-ef57-423e-a2ad-ca5eb0c6415f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\Decor">
+      <UniqueIdentifier>{141ff26c-3b94-4382-b283-dbc07d9393c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\Backdrop">
+      <UniqueIdentifier>{915637d7-c986-487d-bc39-073856287fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\Interactables">
+      <UniqueIdentifier>{6d152329-c0bc-4cdf-afb7-52c178661795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Collectables">
+      <UniqueIdentifier>{1b428df7-055b-478d-ab96-d7b14de16c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Scripting">
+      <UniqueIdentifier>{1ca8bc20-d462-4b2b-a226-096fb92c03d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Entities">
+      <UniqueIdentifier>{13e15d06-109d-4163-b24a-bde86dfd8769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Framework">
+      <UniqueIdentifier>{09dc45bc-6db2-4bd9-b2a4-201200a93b67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\GameStates">
+      <UniqueIdentifier>{0ddbb45c-5378-44e6-a718-e3811a3da166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Systems">
+      <UniqueIdentifier>{cc504d73-8df9-423e-baec-be5be8b11f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Framework\tpl">
+      <UniqueIdentifier>{25adcaa0-44d1-40bf-abee-47610dd5c7f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GameStates">
+      <UniqueIdentifier>{6f5d90d9-4e90-41f6-8475-6fe7fc7cb2e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Collectables">
+      <UniqueIdentifier>{bf9bc8e4-2323-4925-8dfc-deb3874d09c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scripting">
+      <UniqueIdentifier>{62c2c273-e105-4cb0-8de4-b601a44f2d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework">
+      <UniqueIdentifier>{b81a36a0-466c-4375-9611-80f90bccb5d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Entities">
+      <UniqueIdentifier>{8de7c506-f42e-4f59-a263-3322f3610adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Systems">
+      <UniqueIdentifier>{cf8cb5a8-5a43-46fd-97c9-1334ad2e124e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Types">
+      <UniqueIdentifier>{8e2abded-d34d-4c1d-bb1d-c33bcde0dbc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Fonts">
+      <UniqueIdentifier>{f1935a24-b4da-4b87-a682-51b197b78929}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Action.cpp">
+      <Filter>Source\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Cfg.cpp">
+      <Filter>Source\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Game.cpp">
+      <Filter>Source\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\GameState.cpp">
+      <Filter>Source\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\GameStateMgr.cpp">
+      <Filter>Source\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStates\PausedState.cpp">
+      <Filter>Source\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStates\PlayState.cpp">
+      <Filter>Source\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStates\SplashState..cpp">
+      <Filter>Source\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStates\TitleState.cpp">
+      <Filter>Source\GameStates</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Framework\Action.h">
+      <Filter>Include\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Framework\ActionMap.h">
+      <Filter>Include\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Framework\ActionTarget.h">
+      <Filter>Include\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Framework\Cfg.h">
+      <Filter>Include\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Framework\Game.h">
+      <Filter>Include\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Framework\GameState.h">
+      <Filter>Include\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Framework\GameStateMgr.h">
+      <Filter>Include\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Framework\ResourceManager.h">
+      <Filter>Include\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GameStates\PausedState.h">
+      <Filter>Include\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GameStates\PlayState.h">
+      <Filter>Include\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GameStates\SplashState.h">
+      <Filter>Include\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GameStates\TitleState.h">
+      <Filter>Include\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Types\GameStateTypes.h">
+      <Filter>Include\Types</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Include\Framework\tpl\ActionMap.tpl">
+      <Filter>Include\Framework\tpl</Filter>
+    </None>
+    <None Include="Include\Framework\tpl\ActionTarget.tpl">
+      <Filter>Include\Framework\tpl</Filter>
+    </None>
+    <None Include="Include\Framework\tpl\ResourceManager.tpl">
+      <Filter>Include\Framework\tpl</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Textures\Backdrop\logo.png">
+      <Filter>Assets\Textures\Backdrop</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Backdrop\title.png">
+      <Filter>Assets\Textures\Backdrop</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Assets\Fonts\titleFont.ttf">
+      <Filter>Assets\Fonts</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
