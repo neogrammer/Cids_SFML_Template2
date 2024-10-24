@@ -10,7 +10,7 @@ PausedState::~PausedState()
 {
 }
 
-void PausedState::processEvent(sf::Event& e)
+void PausedState::processEvent(sf::RenderWindow& wnd, sf::Event& e)
 {
 
 	if (e.type == sf::Event::KeyReleased && e.key.code == sf::Keyboard::P)

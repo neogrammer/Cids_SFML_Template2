@@ -1,5 +1,15 @@
+C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Animation\Animation.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\Animation.obj
+C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Components\cAnimation.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\cAnimation.obj
+C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Components\cAnimMap.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\cAnimMap.obj
+C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Components\cBBox.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\cBBox.obj
+C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Components\Components.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\Components.obj
+C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Components\cRender.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\cRender.obj
+C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Components\cTransform.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\cTransform.obj
+C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Entities\Entity.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\Entity.obj
+C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Entities\Player.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\Player.obj
 C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Framework\Action.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\Action.obj
 C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Framework\Cfg.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\Cfg.obj
+C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Framework\EntityMgr.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\EntityMgr.obj
 C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Framework\Game.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\Game.obj
 C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Framework\GameState.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\GameState.obj
 C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Framework\GameStateMgr.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\GameStateMgr.obj
@@ -7,4 +17,10 @@ C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\GameStates\PausedState
 C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\GameStates\PlayState.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\PlayState.obj
 C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\GameStates\SplashState..cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\SplashState..obj
 C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\GameStates\TitleState.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\TitleState.obj
+C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Helper\IamCOLLIDABLE.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\IamCOLLIDABLE.obj
+C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Helper\Physics.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\Physics.obj
 C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\main.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\main.obj
+C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Scene\AnimTile.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\AnimTile.obj
+C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Scene\Tile.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\Tile.obj
+C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Scene\Tilemap.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\Tilemap.obj
+C:\Users\AUStudent\source\repos\Cids_SFML_Template\Source\Scene\Tileset.cpp;C:\Users\AUStudent\source\repos\Cids_SFML_Template\Cids_SFM.61a3d45f\x64\Debug\Tileset.obj

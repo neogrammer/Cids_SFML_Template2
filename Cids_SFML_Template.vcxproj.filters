@@ -106,6 +106,45 @@
     <Filter Include="Assets\Fonts">
       <UniqueIdentifier>{f1935a24-b4da-4b87-a682-51b197b78929}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Assets\Textures\GUI">
+      <UniqueIdentifier>{8b7344e3-7df4-46c6-8194-7f049b3629bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Scene">
+      <UniqueIdentifier>{181ba5fc-8a9c-43f2-b73e-142bd7b113dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene">
+      <UniqueIdentifier>{ff716ebd-db82-4ffc-93bf-f287331d9535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\Tilesets">
+      <UniqueIdentifier>{0409b089-f1db-472e-b0e7-82e574ac4f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Data\Tilemaps">
+      <UniqueIdentifier>{fd543013-bf3b-4b6f-b047-905ebddb0383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\FiniteStateMachine">
+      <UniqueIdentifier>{70954b03-a827-44df-9642-46217e2a7d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FiniteStateMachine">
+      <UniqueIdentifier>{de452746-dbc7-47b5-9f20-cca922f0d996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Components">
+      <UniqueIdentifier>{c95e4b85-9856-4536-ae5e-fa46056bef1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Components">
+      <UniqueIdentifier>{99c5b94c-59e3-407b-bec4-e4ec39f926f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Animation">
+      <UniqueIdentifier>{ef1b4830-2356-4d81-834b-ea3f17772260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Animation">
+      <UniqueIdentifier>{c3ad56b5-134d-451b-b47b-5a797f0713ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Helper">
+      <UniqueIdentifier>{c5a2e689-497e-471b-8c77-7b71663765b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Helper">
+      <UniqueIdentifier>{5a1f3677-6e0d-46cd-ac52-6e66a78eb01c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\main.cpp">
@@ -137,6 +176,54 @@
     </ClCompile>
     <ClCompile Include="Source\GameStates\TitleState.cpp">
       <Filter>Source\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Tile.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Tilemap.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Tileset.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\AnimTile.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Entities\Entity.cpp">
+      <Filter>Source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Components\Components.cpp">
+      <Filter>Source\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\EntityMgr.cpp">
+      <Filter>Source\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Components\cAnimation.cpp">
+      <Filter>Source\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Components\cAnimMap.cpp">
+      <Filter>Source\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Components\cBBox.cpp">
+      <Filter>Source\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Components\cRender.cpp">
+      <Filter>Source\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Components\cTransform.cpp">
+      <Filter>Source\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Animation\Animation.cpp">
+      <Filter>Source\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Entities\Player.cpp">
+      <Filter>Source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Helper\IamCOLLIDABLE.cpp">
+      <Filter>Source\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Helper\Physics.cpp">
+      <Filter>Source\Helper</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -179,6 +266,66 @@
     <ClInclude Include="Include\Types\GameStateTypes.h">
       <Filter>Include\Types</Filter>
     </ClInclude>
+    <ClInclude Include="Include\Scene\Tile.h">
+      <Filter>Include\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Scene\Tilemap.h">
+      <Filter>Include\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Scene\Tileset.h">
+      <Filter>Include\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Types\TileTypes.h">
+      <Filter>Include\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Scene\AnimTile.h">
+      <Filter>Include\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FiniteStateMachine\FSM.h">
+      <Filter>Include\FiniteStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FiniteStateMachine\IgnoreUnknownEvent.h">
+      <Filter>Include\FiniteStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FiniteStateMachine\PlayerAnimStates.h">
+      <Filter>Include\FiniteStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FiniteStateMachine\Events.h">
+      <Filter>Include\FiniteStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FiniteStateMachine\PlayerAnimFSM.h">
+      <Filter>Include\FiniteStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FiniteStateMachine\DuckFold.h">
+      <Filter>Include\FiniteStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Entities\Entity.h">
+      <Filter>Include\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Components\Components.h">
+      <Filter>Include\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Types\ComponentTypes.h">
+      <Filter>Include\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Framework\EntityMgr.h">
+      <Filter>Include\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Animation\Animation.h">
+      <Filter>Include\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Entities\Player.h">
+      <Filter>Include\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Types\EntityTypes.h">
+      <Filter>Include\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Helper\IamCOLLIDABLE.h">
+      <Filter>Include\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Helper\Physics.h">
+      <Filter>Include\Helper</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Include\Framework\tpl\ActionMap.tpl">
@@ -190,6 +337,9 @@
     <None Include="Include\Framework\tpl\ResourceManager.tpl">
       <Filter>Include\Framework\tpl</Filter>
     </None>
+    <None Include="Assets\Data\Animations\Player.anim">
+      <Filter>Assets\Data\Animations</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\Textures\Backdrop\logo.png">
@@ -198,10 +348,33 @@
     <Image Include="Assets\Textures\Backdrop\title.png">
       <Filter>Assets\Textures\Backdrop</Filter>
     </Image>
+    <Image Include="Assets\Textures\GUI\SelectionArrow.png">
+      <Filter>Assets\Textures\GUI</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Tilesets\invariantTile.png">
+      <Filter>Assets\Textures\Tilesets</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Tilesets\invariantTile64.png">
+      <Filter>Assets\Textures\Tilesets</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Tilesets\tileset1.png">
+      <Filter>Assets\Textures\Tilesets</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Entities\playerAtlas.png">
+      <Filter>Assets\Textures\Entities</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Font Include="Assets\Fonts\titleFont.ttf">
       <Filter>Assets\Fonts</Filter>
     </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\Data\Tilesets\tileset1.txt">
+      <Filter>Assets\Data\Tilesets</Filter>
+    </Text>
+    <Text Include="Assets\Data\Tilemaps\tilemap1.txt">
+      <Filter>Assets\Data\Tilemaps</Filter>
+    </Text>
   </ItemGroup>
 </Project>

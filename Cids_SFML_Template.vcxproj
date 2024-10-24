@@ -137,8 +137,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Source\Animation\Animation.cpp" />
+    <ClCompile Include="Source\Components\cAnimation.cpp" />
+    <ClCompile Include="Source\Components\cAnimMap.cpp" />
+    <ClCompile Include="Source\Components\cBBox.cpp" />
+    <ClCompile Include="Source\Components\Components.cpp" />
+    <ClCompile Include="Source\Components\cRender.cpp" />
+    <ClCompile Include="Source\Components\cTransform.cpp" />
+    <ClCompile Include="Source\Entities\Entity.cpp" />
+    <ClCompile Include="Source\Entities\Player.cpp" />
     <ClCompile Include="Source\Framework\Action.cpp" />
     <ClCompile Include="Source\Framework\Cfg.cpp" />
+    <ClCompile Include="Source\Framework\EntityMgr.cpp" />
     <ClCompile Include="Source\Framework\Game.cpp" />
     <ClCompile Include="Source\Framework\GameState.cpp" />
     <ClCompile Include="Source\Framework\GameStateMgr.cpp" />
@@ -146,13 +156,30 @@
     <ClCompile Include="Source\GameStates\PlayState.cpp" />
     <ClCompile Include="Source\GameStates\SplashState..cpp" />
     <ClCompile Include="Source\GameStates\TitleState.cpp" />
+    <ClCompile Include="Source\Helper\IamCOLLIDABLE.cpp" />
+    <ClCompile Include="Source\Helper\Physics.cpp" />
     <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\Scene\AnimTile.cpp" />
+    <ClCompile Include="Source\Scene\Tile.cpp" />
+    <ClCompile Include="Source\Scene\Tilemap.cpp" />
+    <ClCompile Include="Source\Scene\Tileset.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Include\Animation\Animation.h" />
+    <ClInclude Include="Include\Components\Components.h" />
+    <ClInclude Include="Include\Entities\Entity.h" />
+    <ClInclude Include="Include\Entities\Player.h" />
+    <ClInclude Include="Include\FiniteStateMachine\DuckFold.h" />
+    <ClInclude Include="Include\FiniteStateMachine\Events.h" />
+    <ClInclude Include="Include\FiniteStateMachine\FSM.h" />
+    <ClInclude Include="Include\FiniteStateMachine\IgnoreUnknownEvent.h" />
+    <ClInclude Include="Include\FiniteStateMachine\PlayerAnimFSM.h" />
+    <ClInclude Include="Include\FiniteStateMachine\PlayerAnimStates.h" />
     <ClInclude Include="Include\Framework\Action.h" />
     <ClInclude Include="Include\Framework\ActionMap.h" />
     <ClInclude Include="Include\Framework\ActionTarget.h" />
     <ClInclude Include="Include\Framework\Cfg.h" />
+    <ClInclude Include="Include\Framework\EntityMgr.h" />
     <ClInclude Include="Include\Framework\Game.h" />
     <ClInclude Include="Include\Framework\GameState.h" />
     <ClInclude Include="Include\Framework\GameStateMgr.h" />
@@ -161,9 +188,19 @@
     <ClInclude Include="Include\GameStates\PlayState.h" />
     <ClInclude Include="Include\GameStates\SplashState.h" />
     <ClInclude Include="Include\GameStates\TitleState.h" />
+    <ClInclude Include="Include\Helper\IamCOLLIDABLE.h" />
+    <ClInclude Include="Include\Helper\Physics.h" />
+    <ClInclude Include="Include\Scene\AnimTile.h" />
+    <ClInclude Include="Include\Scene\Tile.h" />
+    <ClInclude Include="Include\Scene\Tilemap.h" />
+    <ClInclude Include="Include\Scene\Tileset.h" />
+    <ClInclude Include="Include\Types\ComponentTypes.h" />
+    <ClInclude Include="Include\Types\EntityTypes.h" />
     <ClInclude Include="Include\Types\GameStateTypes.h" />
+    <ClInclude Include="Include\Types\TileTypes.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Data\Animations\Player.anim" />
     <None Include="Include\Framework\tpl\ActionMap.tpl" />
     <None Include="Include\Framework\tpl\ActionTarget.tpl" />
     <None Include="Include\Framework\tpl\ResourceManager.tpl" />
@@ -177,9 +214,18 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
     </Image>
+    <Image Include="Assets\Textures\Entities\playerAtlas.png" />
+    <Image Include="Assets\Textures\GUI\SelectionArrow.png" />
+    <Image Include="Assets\Textures\Tilesets\invariantTile.png" />
+    <Image Include="Assets\Textures\Tilesets\invariantTile64.png" />
+    <Image Include="Assets\Textures\Tilesets\tileset1.png" />
   </ItemGroup>
   <ItemGroup>
     <Font Include="Assets\Fonts\titleFont.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\Data\Tilemaps\tilemap1.txt" />
+    <Text Include="Assets\Data\Tilesets\tileset1.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

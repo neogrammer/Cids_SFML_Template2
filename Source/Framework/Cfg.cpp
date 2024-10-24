@@ -29,6 +29,10 @@ void Cfg::initTextures()
 {
 	textures.load((int)Textures::Logo, "Assets/Textures/Backdrop/logo.png");
 	textures.load((int)Textures::Title, "Assets/Textures/Backdrop/title.png");
+	textures.load((int)Textures::SelectArrow, "Assets/Textures/GUI/SelectionArrow.png");
+	textures.load((int)Textures::InvariantTile, "Assets/Textures/Tilesets/invariantTile64.png");
+	textures.load((int)Textures::PlayerAtlas, "Assets/Textures/Entities/playerAtlas.png");
+
 }
 
 void Cfg::initPlayerInputs()

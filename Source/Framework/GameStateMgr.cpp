@@ -4,6 +4,7 @@
 #include <GameStates/PlayState.h>
 #include <GameStates/SplashState.h>
 #include <GameStates/TitleState.h>
+#include <Framework/GameState.h>
 #include <iostream>
 GameStateMgr::GameStateMgr()
 {
@@ -63,7 +64,7 @@ void GameStateMgr::input(sf::RenderWindow& wnd, float dt)
 void GameStateMgr::update(sf::RenderWindow& wnd, float dt)
 {
 	if (needsToSwitchState)
-		safeStateSwitch();
+		safeStateSwitch(wnd);
 	if (!needsToSwitchState)
 		stateStack.top()->update( wnd,  dt);
 	return;
@@ -101,7 +102,7 @@ void GameStateMgr::render(sf::RenderWindow& wnd, float dt)
 	return;
 }
 
-void GameStateMgr::safeStateSwitch()
+void GameStateMgr::safeStateSwitch(sf::RenderWindow& wnd_)
 {
 	if (needsToSwitchState)
 	{
@@ -122,6 +123,8 @@ void GameStateMgr::safeStateSwitch()
 
 			if (nextState == GameStateType::Play)
 			{
+				auto& state = *dynamic_cast<PlayState*>(const_cast<GameState*>(stateStack.top()));
+				state.init(wnd_);
 				//gameView = wnd->getDefaultView();
 				//dynamic_cast<PlayState*>(stateStack.top())->LoadLevel();
 			}
@@ -135,9 +138,9 @@ void GameStateMgr::safeStateSwitch()
 	return;
 }
 
-void GameStateMgr::processEvent(sf::Event& e_)
+void GameStateMgr::processEvent(sf::RenderWindow& wnd, sf::Event& e_)
 {
-	stateStack.top()->processEvent(e_);
+	stateStack.top()->processEvent(wnd, e_);
 }
 
 void GameStateMgr::changeState(GameStateType type_, bool popCurrent_)

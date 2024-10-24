@@ -13,7 +13,7 @@ SplashState::~SplashState()
 {
 }
 
-void SplashState::processEvent(sf::Event& e)
+void SplashState::processEvent(sf::RenderWindow& wnd, sf::Event& e)
 {
 	if (e.type == sf::Event::KeyReleased)
 	{

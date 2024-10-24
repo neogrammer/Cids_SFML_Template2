@@ -1,0 +1,43 @@
+"AnimationPackage" 
+
+ 10 10 10 
+
+ Names 
+
+ IdleState 
+ RunningState 
+ ShootingState 
+ RunningAndShootingState  
+ InAirShootingState 
+ InAirState
+ InAirPeakState
+ InAirFallState
+ InAirPeakShootingState
+ InAirFallShootingState
+
+ Frames
+
+ 3 0 1 130 160 
+ 9 3 2 130 160 
+ 4 8 1 130 160 
+ 9 3 3 130 160 
+ 4 0 6 130 160 
+ 4 0 5 130 160
+ 1 4 5 130 160 
+ 3 5 5 130 160 
+ 1 4 6 130 160 
+ 3 5 6 130 160
+
+
+ Data
+
+ 250 1 250 1 1
+ 080 1 000 0 1
+ 005 1 000 0 0
+ 080 1 000 0 1
+ 080 1 000 0 0
+ 080 1 000 0 0
+ 080 1 000 0 0
+ 080 1 000 0 0
+ 080 1 000 0 0
+ 080 1 000 0 0

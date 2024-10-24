@@ -4,6 +4,7 @@
 #include <SFML/System/Clock.hpp>
 #include <vector>
 #include <Framework/GameStateMgr.h>
+
 class Tilemap;
 
 class Game

@@ -7,6 +7,7 @@
 
 Game::Game()
 {
+	
 }
 
 
@@ -22,7 +23,7 @@ void Game::run()
 	settings.antialiasingLevel = 8;
 	sf::RenderWindow wnd{ { 1600U, 900U, 32U }, "Cid's SFML Game Temaplate", sf::Style::None, settings };
 
-	GameStateMgr gameStateMgr;
+	GameStateMgr gameStateMgr{};
 
 	sf::Clock frameTimer{};
 
@@ -33,7 +34,7 @@ void Game::run()
 		{
 			if (e.type == sf::Event::Closed) { wnd.close(); }
 			if (e.type == sf::Event::KeyReleased && e.key.code == sf::Keyboard::Key::Escape) { wnd.close(); }
-			gameStateMgr.processEvent(e);
+			gameStateMgr.processEvent(wnd, e);
 		}
 		if (!wnd.isOpen()) { break; }
 		// update time
@@ -44,6 +45,7 @@ void Game::run()
 		gameStateMgr.update(wnd, dt);
 		wnd.clear(sf::Color::White);
 		gameStateMgr.render(wnd, dt);
+		
 		wnd.display();
 	}
 }
